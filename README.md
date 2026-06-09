@@ -12,6 +12,14 @@ MoonSheet 是一套计划使用 MoonBit 实现的可解释电子表格计算与�
 
 必须完成公式解析、依赖与增量重算、循环与错误传播、浏览器调用四个技术探针。探针通过后才进入 MoonSheet MVP 开发。
 
+## 开发验证
+
+```text
+moon check --deny-warn
+moon test
+moon check --fmt
+```
+
 ## 从这里开始
 
 阅读 [docs/README.md](docs/README.md)，了解：
