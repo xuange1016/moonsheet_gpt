@@ -17,7 +17,7 @@ MoonSheet 是一套计划使用 MoonBit 实现的可解释电子表格计算与�
 ```text
 moon check --deny-warn
 moon test
-moon check --fmt
+moon fmt --check
 ```
 
 ## 从这里开始

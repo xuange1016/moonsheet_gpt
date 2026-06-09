@@ -13,4 +13,4 @@ jobs:
       - uses: moonbitlang/setup-moonbit@v1
       - run: moon check --deny-warn
       - run: moon test
-      - run: moon check --fmt
+      - run: moon fmt --check
