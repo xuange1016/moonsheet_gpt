@@ -1,16 +1,16 @@
 ///|
 test "parses A1 column boundaries" {
-  inspect(parse_column("A"), content="Some(1)")
-  inspect(parse_column("Z"), content="Some(26)")
-  inspect(parse_column("AA"), content="Some(27)")
-  inspect(parse_column("XFD"), content="Some(16384)")
-  inspect(parse_column("XFE"), content="None")
+  assert_eq(parse_column("A"), Some(1))
+  assert_eq(parse_column("Z"), Some(26))
+  assert_eq(parse_column("AA"), Some(27))
+  assert_eq(parse_column("XFD"), Some(16384))
+  assert_eq(parse_column("XFE"), None)
 }
 
 ///|
 test "formats A1 column boundaries" {
-  inspect(format_column(1), content="Some(\"A\")")
-  inspect(format_column(27), content="Some(\"AA\")")
-  inspect(format_column(16384), content="Some(\"XFD\")")
-  inspect(format_column(16385), content="None")
+  assert_eq(format_column(1), Some("A"))
+  assert_eq(format_column(27), Some("AA"))
+  assert_eq(format_column(16384), Some("XFD"))
+  assert_eq(format_column(16385), None)
 }
