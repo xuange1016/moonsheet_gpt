@@ -35,6 +35,7 @@ MoonSheet 使用 MoonBit 计算电子表格公式、追踪单元格依赖，并�
 | [moonsheet-implementation-plan.md](moonsheet-implementation-plan.md) | 新仓库启动、交付顺序与门禁 | Approved |
 | [repository-bootstrap.md](repository-bootstrap.md) | 新仓库身份、迁移边界与首个基线 | Ready |
 | [first-stage-commit-plan.md](first-stage-commit-plan.md) | 第一阶段 16 个实质提交与验证证据 | Active |
+| [milestone-0-probe-report.md](milestone-0-probe-report.md) | Milestone 0 探针证据与 Gate 1 剩余项 | Active |
 | [moonsheet-test-plan.md](moonsheet-test-plan.md) | 正确性、性能与产品验证 | Approved |
 | [spec-review-matrix.md](spec-review-matrix.md) | 规格问题关闭状态 | Active |
 | [acceptance-traceability.md](acceptance-traceability.md) | R1-R11 的实现与验收证据 | Active |
